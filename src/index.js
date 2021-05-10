@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import FirebaseContext from './context/firebase';
 
-ReactDOM.render(<App />, document.getElementById('root')
+ReactDOM.render(
+<FirebaseContext.Provider value={{ firebase, FieldValue }}>
+<App />
+</FirebaseContext.Provider>,
+document.getElementById('root')
 );
 // client side rendered app: react (cra)
-   // -> database wich is Firebase
+   // -> database witch is Firebase
    // -> react-loading-skeleton
    // tailwind
 
