@@ -50,3 +50,4 @@ export function seedDatabase(firebase) {
         }
     ]
 }
+// FALTAN COSAS EN ESTE FILE!!!
