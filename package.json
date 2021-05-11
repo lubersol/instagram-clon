@@ -47,7 +47,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "tailwindcss": "^2.1.2"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
