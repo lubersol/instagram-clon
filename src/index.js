@@ -1,28 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 import FirebaseContext from './context/firebase';
 import { firebase, FieldValue } from './lib/firebase';
+import "./styles/app.css";
 
 ReactDOM.render(
-<FirebaseContext.Provider value={{ firebase, FieldValue }}>
-<App />
-</FirebaseContext.Provider>,
-document.getElementById('root')
+  <FirebaseContext.Provider value={{ firebase, FieldValue }}>
+    <App />
+  </FirebaseContext.Provider>,
+  document.getElementById("root")
 );
 // client side rendered app: react (cra)
-   // -> database witch is Firebase
-   // -> react-loading-skeleton
-   // tailwind
+// -> database witch is Firebase
+// -> react-loading-skeleton
+// tailwind
 
 // folder structure
-   // src 
-      // -> components, 
-      // -> constants, 
-      // -> context,
-      // -> helpers, 
-      // -> hooks,
-      // -> pages,
-      // -> lib (firebase is living here), 
-      // -> services (firebase functions in here),
-      // -> styles (tailwind's folder (app/tailwind))
+// src
+// -> components,
+// -> constants,
+// -> context,
+// -> helpers,
+// -> hooks,
+// -> pages,
+// -> lib (firebase is living here),
+// -> services (firebase functions in here),
+// -> styles (tailwind's folder (app/tailwind))
