@@ -2,7 +2,7 @@
 
 Instagram API using **React, Tailwind CSS and Firebase**
 
-![Screenshot](images/insta.png)
+![Screenshot](public/images/insta.png)
 
 ## Pages
 
