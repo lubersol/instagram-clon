@@ -1,3 +1,17 @@
+# INSTAGRAM-CLON
+
+Instagram API using **React, Tailwind CSS and Firebase**
+
+![Screenshot](insta.png)
+
+## Pages
+
+*Login* :zap:
+*Sign up* :zap:
+*Dashboard* :zap:
+*User profile* :zap:
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
